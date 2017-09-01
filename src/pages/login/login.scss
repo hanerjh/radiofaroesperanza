@@ -1,0 +1,42 @@
+.page-login {
+    
+}
+.button-md{
+    //background-color:#328193;
+    background-color:#3b9e75;
+}
+#btn_registro{
+    margin-left:-5px;
+}
+
+#btn_content{
+    
+    margin-top:50px;
+}
+#btn_escuchar{
+    margin-top: -12px;
+}
+#svg_logo{
+    width: 100px; 
+}
+img{
+    margin-top: 20px;
+}
+p,h4{color: white;}
+.bg-vid {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+	background: url("assets/img/video.mp4") no-repeat;
+	background-size: cover;
+}
