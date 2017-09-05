@@ -1,3 +1,4 @@
+import { StaffPage } from './../pages/staff/staff';
 
 
 
@@ -22,7 +23,7 @@ import { Http,HttpModule } from '@angular/http';
     MyApp,
     HomePage,
     ListPage,
-    LoginPage,PlayradioPage
+    LoginPage,PlayradioPage,StaffPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +33,7 @@ import { Http,HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,LoginPage,PlayradioPage
+    ListPage,LoginPage,PlayradioPage,StaffPage
   ],
   providers: [
     StatusBar,

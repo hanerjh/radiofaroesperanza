@@ -1,5 +1,7 @@
+import { StaffPage } from './../staff/staff';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+
 
 /**
  * Generated class for the PlayradioPage page.
@@ -21,5 +23,8 @@ export class PlayradioPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad PlayradioPage');
   }
+staff(){
+this.navCtrl.push(StaffPage);
 
+}
 }
