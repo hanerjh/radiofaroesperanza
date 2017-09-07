@@ -13,26 +13,35 @@
     <div class="img_content">        
         <img src="{{datos2.image}}"/>
          <ion-buttons class="btn_modal_close" end>
-            <button ion-button color="light" (click)="closeModal()" outline> X </button>
+            <button ion-button color="light" (click)="closeModal()" outline> 
+                <ion-icon name="close"></ion-icon>
+            </button>
           </ion-buttons>
 
           <h4 class="title_profile">{{datos2.name}}</h4>
-          <span class="ocupation_prof">{{datos2.cargo}}</span>
+          <span class="ocupation_prof"> <ion-icon name="pricetags"></ion-icon> {{datos2.cargo}}</span>
     </div>
 
     <div class="cont" padding>
           <ion-grid>
             <ion-row>
-              <ion-col col-12>
-                  <h5>{{datos2.name}}</h5>
-                  <h6>Director</h6>
-              </ion-col>
+              <ion-col>
+                <div class="icon" float-right>
+                    <ion-icon ios="logo-facebook" md="logo-facebook" color="primary"></ion-icon>
+                    <ion-icon ios="logo-youtube" md="logo-youtube"></ion-icon>
+                    <ion-icon ios="logo-instagram" md="logo-instagram"></ion-icon>
+               
+                </div>
+                  </ion-col>
             </ion-row>
             
             <ion-row>
               <ion-col>
-                  <p>{{datos2.quote}}</p>
-              </ion-col>
+                   <h5>Sobre mi</h5>
+                   <p>{{datos2.quote}}</p>
+                   <p><ion-icon name="mail"></ion-icon> Email@farodeesperanza.com </p>
+                   <p><ion-icon name="pin"></ion-icon> Buenaventura-Valle</p>
+                  </ion-col>
             </ion-row>
           </ion-grid>
     </div>
