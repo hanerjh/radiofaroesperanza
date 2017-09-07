@@ -11,6 +11,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from './../pages/login/login';
 import { PlayradioPage } from './../pages/playradio/playradio';
+import { ProgramasPage } from './../pages/programas/programas';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,12 +19,13 @@ import { PlayRadioServerProvider } from '../providers/play-radio-server/play-rad
 import { Http,HttpModule } from '@angular/http';
 
 
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    LoginPage,PlayradioPage,StaffPage
+    LoginPage,PlayradioPage,StaffPage,ProgramasPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,7 @@ import { Http,HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,LoginPage,PlayradioPage,StaffPage
+    ListPage,LoginPage,PlayradioPage,StaffPage,ProgramasPage
   ],
   providers: [
     StatusBar,

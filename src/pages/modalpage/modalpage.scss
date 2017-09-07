@@ -26,9 +26,21 @@ page-modalpage {
         top:270px;
         left: 30px;
     }
+    h3.prof_title{
+        font-weight: bolder;
+        color:#121212;
+        padding-top:6px;
+        
+    }
+    p.desc_prof{
+        color: #353535;
+        font-size: 1.1em;
+        margin-top: -7px;     
+    }
     span.ocupation_prof{
         color: #FFFFFF;
         position: absolute;
+        margin-top: 3px;
         font-size: 1.25em;
         top:320px;
         left: 35px;

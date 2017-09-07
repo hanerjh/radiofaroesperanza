@@ -1,4 +1,5 @@
 import { StaffPage } from './../staff/staff';
+import{ProgramasPage} from './../programas/programas';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -27,4 +28,9 @@ staff(){
 this.navCtrl.push(StaffPage);
 
 }
+
+programas(){
+  this.navCtrl.push(ProgramasPage);
+  
+  }
 }
