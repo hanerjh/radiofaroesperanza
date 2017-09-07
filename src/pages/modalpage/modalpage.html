@@ -1,20 +1,40 @@
-<!--
-  Generated template for the ModalpagePage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar *navbar>
     <ion-title>Modalpage</ion-title>
-    <ion-buttons end>
-        <button ion-button (click)="closeModal()"> Close </button>
-      </ion-buttons>
+    
   </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
-  <h1>{{ datos2.name }}</h1>
+<ion-content>
+
+    <div class="img_content">        
+        <img src="{{datos2.image}}"/>
+         <ion-buttons class="btn_modal_close" end>
+            <button ion-button color="light" (click)="closeModal()" outline> X </button>
+          </ion-buttons>
+
+          <h4 class="title_profile">{{datos2.name}}</h4>
+          <span class="ocupation_prof">{{datos2.cargo}}</span>
+    </div>
+
+    <div class="cont" padding>
+          <ion-grid>
+            <ion-row>
+              <ion-col col-12>
+                  <h5>{{datos2.name}}</h5>
+                  <h6>Director</h6>
+              </ion-col>
+            </ion-row>
+            
+            <ion-row>
+              <ion-col>
+                  <p>{{datos2.quote}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+    </div>
+    
 </ion-content>

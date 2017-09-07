@@ -18,9 +18,10 @@ export class StaffPage {
   character:any;
    characters:any = [
     {
-      name: 'Gollum',
-      quote: 'Sneaky little hobbitses!',
-      image: 'assets/img/avatar-gollum.jpg',
+      name: 'Juan Carlos Ogeda',
+      quote: 'Nacio el 29 de Febrero de 1988. En el ambito laboral, actualmente se desempenpeña en el area de informática. Casado y con una hija',
+      image: 'http://faroesperanza.com/images/Dir.jpg',
+      cargo:'Director General',
       items: [
         { title: 'Race', note: 'Hobbit' },
         { title: 'Culture', note: 'River Folk' },
@@ -28,9 +29,10 @@ export class StaffPage {
       ]
     },
     {
-      name: 'Frodo',
-      quote: 'Go back, Sam! I\'m going to Mordor alone!',
-      image: 'assets/img/avatar-frodo.jpg',
+      name: 'Lina Marcela Archer S.',
+      quote: ' Nacio en Buenaventura - Valle del cauca. Conduce el programa "Hora del Poder" todos los Jueves, en el horario de las 7:00pm en COLOMBIA',
+      image: 'http://faroesperanza.com/images/Locutor1.jpg',
+      cargo:'Locutora',
       items: [
         { title: 'Race', note: 'Hobbit' },
         { title: 'Culture', note: 'Shire Folk' },
@@ -38,9 +40,10 @@ export class StaffPage {
       ]
     },
     {
-      name: 'Samwise Gamgee',
-      quote: 'What we need is a few good taters.',
-      image: 'assets/img/avatar-samwise.jpg',
+      name: 'Olga Liliana Yusti M.',
+      quote: 'Nacio del 18 de Octubre. Labora en la SP Buenaventura/Valle del Cauca. Conduce el programa "Circulo de Felicidad" los dias Lunes, en el horacio de las 7:00pm COL en la Radio Faro de esperanza',
+      cargo:'locutora',
+      image: 'http://faroesperanza.com/images/Locutor2.jpg',
       items: [
         { title: 'Race', note: 'Hobbit' },
         { title: 'Culture', note: 'Shire Folk' },
