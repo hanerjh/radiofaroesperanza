@@ -6,15 +6,15 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>programas</ion-title>
+  <ion-navbar navbar >
+    <ion-title >Programas</ion-title>
   </ion-navbar>
 </ion-header>
 
 
 <ion-content>
-     <div class="cont_prog">
-         <h4 class="prog_title">Sabia Palabra</h4>
-     </div>
-
+     <div class="cont_prog"   *ngFor="let item of programas; let i=index"  [style.background]="'url('+ item.imagen +')'" 
+     [style.backgroundSize]="'cover'" (click)="select_programa(i)">
+         <h4 class="prog_title">{{item.programa}}</h4>
+     </div>     
 </ion-content>

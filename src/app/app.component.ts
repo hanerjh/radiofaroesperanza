@@ -7,8 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from './../pages/login/login';
 import { PlayradioPage } from './../pages/playradio/playradio';
-import{ProgramasPage} from '../pages/programas/programas'
-
+import{ProgramasPage} from '../pages/programas/programas';
 
 @Component({
   templateUrl: 'app.html'
@@ -29,6 +28,7 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: 'Radio en Vivo', component: PlayradioPage },
       { title: 'Programas', component: ProgramasPage }
+
     ];
 
   }

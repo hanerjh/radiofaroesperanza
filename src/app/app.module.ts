@@ -12,6 +12,7 @@ import { ListPage } from '../pages/list/list';
 import { LoginPage } from './../pages/login/login';
 import { PlayradioPage } from './../pages/playradio/playradio';
 import { ProgramasPage } from './../pages/programas/programas';
+import{DescProgramaPage} from '../pages/desc-programa/desc-programa';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +26,7 @@ import { Http,HttpModule } from '@angular/http';
     MyApp,
     HomePage,
     ListPage,
-    LoginPage,PlayradioPage,StaffPage,ProgramasPage
+    LoginPage,PlayradioPage,StaffPage,ProgramasPage,DescProgramaPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +36,7 @@ import { Http,HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,LoginPage,PlayradioPage,StaffPage,ProgramasPage
+    ListPage,LoginPage,PlayradioPage,StaffPage,ProgramasPage,DescProgramaPage
   ],
   providers: [
     StatusBar,

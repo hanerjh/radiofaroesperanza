@@ -1,0 +1,48 @@
+page-desc-programa {
+    p{color: #202020;}
+    .btn_modal_close{
+        position: absolute;
+        top:0px;
+        right: 5px;
+    }
+    
+    .img_content{
+    img{ margin-top: 0px;}
+    }
+
+   .icon ion-icon{
+        color:#202020;
+        font-size: 2em;
+
+    }
+      
+
+    h4.title_prog{
+        color: #FFFFFF;
+        position: absolute;
+        font-size: 2.3em;
+        top:115px;
+        left: 30px;
+        text-align: center;
+    }
+    h3.prof_title{
+        font-weight: bolder;
+        color:#121212;
+        padding-top:6px;
+        
+    }
+    p.desc_prof{
+        color: #353535;
+        font-size: 1.1em;
+        margin-top: -7px;     
+    }
+    span.desc_prog{
+        color: #FFFFFF;
+        position: absolute;
+        margin-top: 3px;
+        padding:30px; 
+        font-size: 1.1em;
+        top:140px;
+        text-align: center;
+    }
+}

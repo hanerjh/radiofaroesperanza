@@ -1,6 +1,19 @@
 page-programas {
  .cont_prog{
-     height: 300px;
-     background-color: forestgreen;
+     height: 200px;
+     background-repeat:no-repeat;    
+     margin-bottom:4px;
+     text-align: center;
+
+ }
+ .prog_title{
+     font-size: 1.5em;
+     padding:0px;
+     margin: 0px;
+     position: relative;
+     top: 52%;
+     font-weight: bold;
+     text-shadow: 1px 3px 10px black;
+     
  }
 }
